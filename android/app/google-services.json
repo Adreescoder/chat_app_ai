@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "63775372251",
+    "project_id": "gen-lang-client-0267232601",
+    "storage_bucket": "gen-lang-client-0267232601.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63775372251:android:a44eb4f5f41c389dbeedfe",
+        "android_client_info": {
+          "package_name": "com.examle.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1PsDA4BiFJ1kVZUtRNR2lvG5oiIOiwYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63775372251:android:1ca7592959e480adbeedfe",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1PsDA4BiFJ1kVZUtRNR2lvG5oiIOiwYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63775372251:android:c2aa8627aaed12a6beedfe",
+        "android_client_info": {
+          "package_name": "com.example.instagram_clone_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1PsDA4BiFJ1kVZUtRNR2lvG5oiIOiwYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63775372251:android:5eaf174191e59b3cbeedfe",
+        "android_client_info": {
+          "package_name": "com.example.master"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1PsDA4BiFJ1kVZUtRNR2lvG5oiIOiwYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63775372251:android:c1c3a6b69f6034dcbeedfe",
+        "android_client_info": {
+          "package_name": "com.malik.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1PsDA4BiFJ1kVZUtRNR2lvG5oiIOiwYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
