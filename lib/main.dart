@@ -1,9 +1,16 @@
+import 'package:chat_app_ai/firebase_options.dart';
+import 'package:chat_app_ai/screens/home/home_view.dart';
 import 'package:chat_app_ai/screens/login_screen/login_screen_view.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
-void main()  {
+void main()async{
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(const MyRootWidget());
 }
 class MyRootWidget extends StatelessWidget {
@@ -13,6 +20,7 @@ class MyRootWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: 'Dispute Resolver AI',
+       debugShowCheckedModeBanner: false,
        builder: (context, child) => ResponsiveBreakpoints.builder(
       child: child!,
       breakpoints: [
@@ -22,7 +30,7 @@ class MyRootWidget extends StatelessWidget {
         const Breakpoint(start: 1921, end: double.infinity, name: '4K'),
       ],
     ),
-      home: Login_screenPage(),
+      home: HomePage(),
     );
   }
 }

@@ -11,17 +11,34 @@ class Login_screenPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final screenType = ResponsiveBreakpoints.of(context);
     return Container(
-      color: Colors.yellow,
       child: Center(
-        child: screenType.largerThan(MOBILE)
+        child: screenType.largerThan(DESKTOP)
+            ? showDesktopLoginScreen()
+            : screenType.largerThan(TABLET)
             ? showWebLoginScreen()
-            : screenType.smallerThan(TABLET)
+            : screenType.largerThan(MOBILE)
             ? showTabLoginScreen()
             : showMobileLoginScreen(),
       ),
     );
   }
 
+  Widget showMobileLoginScreen() {
+    return Text("Mobile Login Screen");
+  }
+
+  Widget showTabLoginScreen() {
+    return Text("Tablet Login Screen");
+  }
+
+  Widget showWebLoginScreen() {
+    return Text("Web Login Screen");
+  }
+
+  Widget showDesktopLoginScreen() {
+    return Text("Desktop Login Screen");
+  }
+}
   showMobileLoginScreen() {
     return const Text("My Mobile Screen");
   }
@@ -33,4 +50,4 @@ class Login_screenPage extends StatelessWidget {
   showTabLoginScreen() {
     return const Text("My Tab Login Screen");
   }
-}
+
